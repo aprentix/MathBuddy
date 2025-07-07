@@ -4,7 +4,7 @@ import time
 
 
 st.set_page_config(
-    page_title="MateBuddy",
+    page_title="MathBuddy",
     layout="centered",
     initial_sidebar_state="expanded"
 )
