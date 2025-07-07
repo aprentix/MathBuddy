@@ -4,7 +4,7 @@ import time
 
 
 st.set_page_config(
-    page_title="MateBuddy",
+    page_title="MathBuddy",
     layout="centered",
     initial_sidebar_state="expanded"
 )
@@ -29,7 +29,7 @@ if oper_div:
     st.session_state.oper.append('/')
 
 
-st.title("MateBuddy")
+st.title("MathBuddy")
 st.write("Prueba tus conocimientos de matemáticas!! 😆")
 
 if "operacion" not in st.session_state:
