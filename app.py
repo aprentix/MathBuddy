@@ -29,7 +29,7 @@ if oper_div:
     st.session_state.oper.append('/')
 
 
-st.title("MateBuddy")
+st.title("MathBuddy")
 st.write("Prueba tus conocimientos de matemáticas!! 😆")
 
 if "operacion" not in st.session_state:
