@@ -14,8 +14,8 @@ def corregir(operation_vector):
         elif operation_vector[1] == "-":
             return operation_vector[0] - operation_vector[2]
         elif operation_vector[1] == "*":
-            return operation_vector[0] + operation_vector[2]
+            return operation_vector[0] * operation_vector[2]
         elif operation_vector[1] == "/":
-            return operation_vector[0] + operation_vector[2]
+            return operation_vector[0] // operation_vector[2]
     except Exception:
         print(Exception)
